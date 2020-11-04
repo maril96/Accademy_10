@@ -110,6 +110,7 @@ namespace Accademy.Console
                 }
                 if (result == true) break;
             }
+
             return result;
         }
 
