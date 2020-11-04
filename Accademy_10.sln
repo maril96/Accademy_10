@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryAbstract", "Geometr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.Helper", "Accademy.Helper\Accademy.Helper.csproj", "{ECD3546A-1D05-42ED-9DFF-D737FDCCBE8C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accademy.WinForms", "Accademy.WinForms\Accademy.WinForms.csproj", "{6E2ED82B-F769-4019-A489-1FEC1C591C1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accademy.Winform.Tris", "Accademy.Winform.Tris\Accademy.Winform.Tris.csproj", "{862FE9DD-EC64-45F5-BBFB-533E81982F74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{ECD3546A-1D05-42ED-9DFF-D737FDCCBE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECD3546A-1D05-42ED-9DFF-D737FDCCBE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECD3546A-1D05-42ED-9DFF-D737FDCCBE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2ED82B-F769-4019-A489-1FEC1C591C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2ED82B-F769-4019-A489-1FEC1C591C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2ED82B-F769-4019-A489-1FEC1C591C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2ED82B-F769-4019-A489-1FEC1C591C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862FE9DD-EC64-45F5-BBFB-533E81982F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862FE9DD-EC64-45F5-BBFB-533E81982F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862FE9DD-EC64-45F5-BBFB-533E81982F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862FE9DD-EC64-45F5-BBFB-533E81982F74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
