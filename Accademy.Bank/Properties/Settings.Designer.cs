@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WinForm.Tris.Properties
+namespace Accademy.Bank.Properties
 {
 
 

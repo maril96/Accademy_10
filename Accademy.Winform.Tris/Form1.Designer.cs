@@ -40,6 +40,7 @@ namespace Accademy.Winform.Tris
             this.txt_21 = new System.Windows.Forms.TextBox();
             this.txt_22 = new System.Windows.Forms.TextBox();
             this.lbl_error = new System.Windows.Forms.Label();
+            this.lbl_win = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txt_00
@@ -50,8 +51,8 @@ namespace Accademy.Winform.Tris
             this.txt_00.Size = new System.Drawing.Size(61, 61);
             this.txt_00.TabIndex = 0;
             this.txt_00.TextChanged += new System.EventHandler(this.txt_00_TextChanged);
-            this.txt_00.KeyPress += new KeyPressEventHandler(this.txt_00_KeyPress);
-            this.txt_00.KeyDown += new KeyEventHandler(this.txt_00_KeyDown);
+            this.txt_00.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_00_KeyDown);
+            this.txt_00.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_00_KeyPress);
             // 
             // txt_01
             // 
@@ -61,6 +62,8 @@ namespace Accademy.Winform.Tris
             this.txt_01.Size = new System.Drawing.Size(61, 61);
             this.txt_01.TabIndex = 0;
             this.txt_01.TextChanged += new System.EventHandler(this.txt_01_TextChanged);
+            this.txt_01.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_01_KeyDown);
+            this.txt_01.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_01_KeyPress);
             // 
             // txt_02
             // 
@@ -70,6 +73,8 @@ namespace Accademy.Winform.Tris
             this.txt_02.Size = new System.Drawing.Size(61, 61);
             this.txt_02.TabIndex = 0;
             this.txt_02.TextChanged += new System.EventHandler(this.txt_02_TextChanged);
+            this.txt_02.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_02_KeyDown);
+            this.txt_02.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_02_KeyPress);
             // 
             // txt_10
             // 
@@ -79,6 +84,8 @@ namespace Accademy.Winform.Tris
             this.txt_10.Size = new System.Drawing.Size(61, 61);
             this.txt_10.TabIndex = 0;
             this.txt_10.TextChanged += new System.EventHandler(this.txt_10_TextChanged);
+            this.txt_10.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_10_KeyDown);
+            this.txt_10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_10_KeyPress);
             // 
             // txt_11
             // 
@@ -88,6 +95,8 @@ namespace Accademy.Winform.Tris
             this.txt_11.Size = new System.Drawing.Size(61, 61);
             this.txt_11.TabIndex = 0;
             this.txt_11.TextChanged += new System.EventHandler(this.txt_11_TextChanged);
+            this.txt_11.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_11_KeyDown);
+            this.txt_11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_11_KeyPress);
             // 
             // txt_12
             // 
@@ -97,6 +106,8 @@ namespace Accademy.Winform.Tris
             this.txt_12.Size = new System.Drawing.Size(61, 61);
             this.txt_12.TabIndex = 0;
             this.txt_12.TextChanged += new System.EventHandler(this.txt_12_TextChanged);
+            this.txt_12.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_12_KeyDown);
+            this.txt_12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_12_KeyPress);
             // 
             // txt_20
             // 
@@ -106,6 +117,8 @@ namespace Accademy.Winform.Tris
             this.txt_20.Size = new System.Drawing.Size(61, 61);
             this.txt_20.TabIndex = 0;
             this.txt_20.TextChanged += new System.EventHandler(this.txt_20_TextChanged);
+            this.txt_20.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_20_KeyDown);
+            this.txt_20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_20_KeyPress);
             // 
             // txt_21
             // 
@@ -115,6 +128,8 @@ namespace Accademy.Winform.Tris
             this.txt_21.Size = new System.Drawing.Size(61, 61);
             this.txt_21.TabIndex = 0;
             this.txt_21.TextChanged += new System.EventHandler(this.txt_21_TextChanged);
+            this.txt_21.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_21_KeyDown);
+            this.txt_21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_21_KeyPress);
             // 
             // txt_22
             // 
@@ -124,6 +139,8 @@ namespace Accademy.Winform.Tris
             this.txt_22.Size = new System.Drawing.Size(61, 61);
             this.txt_22.TabIndex = 0;
             this.txt_22.TextChanged += new System.EventHandler(this.txt_22_TextChanged);
+            this.txt_22.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_22_KeyDown);
+            this.txt_22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_22_KeyPress);
             // 
             // lbl_error
             // 
@@ -135,11 +152,22 @@ namespace Accademy.Winform.Tris
             this.lbl_error.Size = new System.Drawing.Size(0, 54);
             this.lbl_error.TabIndex = 1;
             // 
+            // lbl_win
+            // 
+            this.lbl_win.AutoSize = true;
+            this.lbl_win.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_win.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lbl_win.Location = new System.Drawing.Point(447, 93);
+            this.lbl_win.Name = "lbl_win";
+            this.lbl_win.Size = new System.Drawing.Size(0, 54);
+            this.lbl_win.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl_win);
             this.Controls.Add(this.lbl_error);
             this.Controls.Add(this.txt_22);
             this.Controls.Add(this.txt_21);
@@ -169,6 +197,7 @@ namespace Accademy.Winform.Tris
         private System.Windows.Forms.TextBox txt_21;
         private System.Windows.Forms.TextBox txt_22;
         private System.Windows.Forms.Label lbl_error;
+        private Label lbl_win;
     }
 }
 

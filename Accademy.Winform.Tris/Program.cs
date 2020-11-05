@@ -19,5 +19,7 @@ namespace Accademy.Winform.Tris
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        //la classe Program in questo caso serve solo a lanciare Form1,
+        //tutto ciò che deve fare l'interfaccia grafica lo gestisce Form1
     }
 }

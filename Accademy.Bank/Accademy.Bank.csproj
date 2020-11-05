@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A8416B7-58D3-4794-BA56-19216C57C85C}</ProjectGuid>
+    <ProjectGuid>{F50EA7D5-CB00-4E9C-AD35-25A94FF01298}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WinForm.Tris</RootNamespace>
-    <AssemblyName>WinForm.Tris</AssemblyName>
+    <RootNamespace>Accademy.Bank</RootNamespace>
+    <AssemblyName>Accademy.Bank</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormManageCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormManageCC.Designer.cs">
+      <DependentUpon>FormManageCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOpenCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOpenCC.Designer.cs">
+      <DependentUpon>FormOpenCC.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOpenCC.resx">
+      <DependentUpon>FormOpenCC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

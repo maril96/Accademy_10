@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WinForm.Tris")]
+[assembly: AssemblyTitle("Accademy.Entities")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WinForm.Tris")]
+[assembly: AssemblyProduct("Accademy.Entities")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4a8416b7-58d3-4794-ba56-19216c57c85c")]
+[assembly: Guid("39c3d447-aac1-46e9-8b12-8d0c4f1d4cc4")]
 
 // Version information for an assembly consists of the following four values:
 //

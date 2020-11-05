@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinForm.Tris
+namespace DataManager
 {
-    public enum Moves
+    public class Class1
     {
-        O,
-        X,
-        NoMoveYet
     }
 }
