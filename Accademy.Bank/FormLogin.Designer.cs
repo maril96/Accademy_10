@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txt_password = new System.Windows.Forms.TextBox();
+            this.login_error = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_login
@@ -41,7 +42,7 @@
             this.btn_login.Location = new System.Drawing.Point(188, 283);
             this.btn_login.Name = "btn_login";
             this.btn_login.Size = new System.Drawing.Size(163, 57);
-            this.btn_login.TabIndex = 0;
+            this.btn_login.TabIndex = 3;
             this.btn_login.Text = "LOGIN";
             this.btn_login.UseVisualStyleBackColor = true;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
@@ -79,13 +80,23 @@
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '*';
             this.txt_password.Size = new System.Drawing.Size(228, 26);
-            this.txt_password.TabIndex = 3;
+            this.txt_password.TabIndex = 2;
+            // 
+            // login_error
+            // 
+            this.login_error.AutoSize = true;
+            this.login_error.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_error.Location = new System.Drawing.Point(158, 383);
+            this.login_error.Name = "login_error";
+            this.login_error.Size = new System.Drawing.Size(0, 29);
+            this.login_error.TabIndex = 5;
             // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(574, 450);
+            this.Controls.Add(this.login_error);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.label1);
@@ -105,6 +116,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_password;
+        private System.Windows.Forms.Label login_error;
     }
 }
 

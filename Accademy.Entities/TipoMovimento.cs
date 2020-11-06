@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataManager
+namespace Accademy.Entities
 {
-    public class Class1
+    public enum TipoMovimento
     {
+        Deposito,
+        Prelievo,
+        Bonifico
     }
 }

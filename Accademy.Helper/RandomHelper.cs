@@ -100,5 +100,19 @@ namespace Accademy.Helper
             return Convert.ToInt32(result) ;
 
         }
+        public static string GetNumConto(int numChars)
+        {
+            string numconto;
+
+            
+            if (numChars <= 36)
+            {
+                Guid newGuid = Guid.NewGuid();
+                string s_newGuid = newGuid.ToString();
+                numconto = s_newGuid.Substring(0, numChars);
+            }
+            else numconto = "";
+                return numconto;
+        }
     }
 }

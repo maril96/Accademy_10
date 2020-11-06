@@ -12,7 +12,6 @@ namespace Accademy.Entities
         public String LastName { get; set; }
         public String CF { get; set; }
         public String Username { get; set; }
-        public String Password { get; set; }
         public ContoCorrente mioConto { get; set; }
         
     }

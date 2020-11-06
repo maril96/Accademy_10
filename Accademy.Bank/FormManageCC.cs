@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Accademy.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,11 @@ namespace Accademy.Bank
 {
     public partial class FormManageCC : Form
     {
-        public FormManageCC()
+        public FormManageCC(string numconto)
         {
             InitializeComponent();
-        
+            this.lbl_numconto.Text = numconto;
+
         }
     }
 }

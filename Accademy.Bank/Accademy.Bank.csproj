@@ -69,6 +69,9 @@
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormManageCC.resx">
+      <DependentUpon>FormManageCC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormOpenCC.resx">
       <DependentUpon>FormOpenCC.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +96,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Accademy.Entities\Accademy.Entities.csproj">
+      <Project>{39c3d447-aac1-46e9-8b12-8d0c4f1d4cc4}</Project>
+      <Name>Accademy.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Accademy.Helper\Accademy.Helper.csproj">
+      <Project>{ecd3546a-1d05-42ed-9dff-d737fdccbe8c}</Project>
+      <Name>Accademy.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataManager\DataManager.csproj">
+      <Project>{A7821D46-0C6D-4786-A7B9-A341F313D75A}</Project>
+      <Name>DataManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
