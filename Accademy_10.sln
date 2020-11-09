@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManager", "DataManager\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.Entities", "Accademy.Entities\Accademy.Entities.csproj", "{39C3D447-AAC1-46E9-8B12-8D0C4F1D4CC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.TestDelegate", "Accademy.TestDelegate\Accademy.TestDelegate.csproj", "{114BBBFE-C5C6-4CD1-BC10-032B59C447D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.MailSystem", "Accademy.MailSystem\Accademy.MailSystem.csproj", "{23A2B4FE-7960-487D-96C7-0D438018D416}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{39C3D447-AAC1-46E9-8B12-8D0C4F1D4CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39C3D447-AAC1-46E9-8B12-8D0C4F1D4CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39C3D447-AAC1-46E9-8B12-8D0C4F1D4CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114BBBFE-C5C6-4CD1-BC10-032B59C447D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114BBBFE-C5C6-4CD1-BC10-032B59C447D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114BBBFE-C5C6-4CD1-BC10-032B59C447D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114BBBFE-C5C6-4CD1-BC10-032B59C447D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A2B4FE-7960-487D-96C7-0D438018D416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A2B4FE-7960-487D-96C7-0D438018D416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A2B4FE-7960-487D-96C7-0D438018D416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A2B4FE-7960-487D-96C7-0D438018D416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
