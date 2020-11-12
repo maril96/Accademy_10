@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23A2B4FE-7960-487D-96C7-0D438018D416}</ProjectGuid>
+    <ProjectGuid>{6E0FEE35-6756-4FE8-9F95-E979945F91D4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Accademy.MailSystem</RootNamespace>
-    <AssemblyName>Accademy.MailSystem</AssemblyName>
+    <RootNamespace>Accademy.Temperature</RootNamespace>
+    <AssemblyName>Accademy.Temperature</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fax.cs" />
-    <Compile Include="MailManager.cs" />
-    <Compile Include="Printer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subscriber1.cs" />
+    <Compile Include="Subscriber2.cs" />
+    <Compile Include="Subscriber3.cs" />
+    <Compile Include="Termometro.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

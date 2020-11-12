@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23A2B4FE-7960-487D-96C7-0D438018D416}</ProjectGuid>
+    <ProjectGuid>{23FDA722-AF52-49E4-9892-B9D18BA08189}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Accademy.MailSystem</RootNamespace>
-    <AssemblyName>Accademy.MailSystem</AssemblyName>
+    <RootNamespace>Accademy.Lambda</RootNamespace>
+    <AssemblyName>Accademy.Lambda</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fax.cs" />
-    <Compile Include="MailManager.cs" />
-    <Compile Include="Printer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Accademy.Helper\Accademy.Helper.csproj">
-      <Project>{ecd3546a-1d05-42ed-9dff-d737fdccbe8c}</Project>
-      <Name>Accademy.Helper</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
