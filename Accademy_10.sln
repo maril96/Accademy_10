@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.Lambda", "Accademy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.DBTest", "Accademy.DBTest\Accademy.DBTest.csproj", "{B6A82C9A-9C7D-4FCB-A402-2287D3B003DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accademy.Esercitazione", "Accademy.Esercitazione\Accademy.Esercitazione.csproj", "{7582E1EB-D1E0-4ACC-AF15-4C1A215C4290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{B6A82C9A-9C7D-4FCB-A402-2287D3B003DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6A82C9A-9C7D-4FCB-A402-2287D3B003DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6A82C9A-9C7D-4FCB-A402-2287D3B003DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7582E1EB-D1E0-4ACC-AF15-4C1A215C4290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7582E1EB-D1E0-4ACC-AF15-4C1A215C4290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7582E1EB-D1E0-4ACC-AF15-4C1A215C4290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7582E1EB-D1E0-4ACC-AF15-4C1A215C4290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
