@@ -8,38 +8,38 @@ namespace Accademy.Esercitazione
 {
     public class Prodotto
     {
-        public int codice { get; }
-        public string descrizione { get; }
-        public double prezzo { get; }
-        public double sconto { get; }
+        public int Codice { get; }
+        public string Descrizione { get; }
+        public double Prezzo { get; }
+        public double Sconto { get; }
         
         public Prodotto(int codice, string descrizione, double prezzo, double sconto)
         {
-            this.codice = codice;
-            this.descrizione = descrizione;
-            this.prezzo = prezzo;
-            this.sconto = sconto;
+            this.Codice = codice;
+            this.Descrizione = descrizione;
+            this.Prezzo = prezzo;
+            this.Sconto = sconto;
         }
         public Prodotto(string descrizione, double prezzo, double sconto)
         {
-            this.codice = -1;
-            this.descrizione = descrizione;
-            this.prezzo = prezzo;
-            this.sconto = sconto;
+            this.Codice = -1;
+            this.Descrizione = descrizione;
+            this.Prezzo = prezzo;
+            this.Sconto = sconto;
         }
         public Prodotto(int codice, string descrizione)
         {
-            this.codice = codice;
-            this.descrizione = descrizione;
-            this.prezzo = 0;
-            this.sconto = 0;
+            this.Codice = codice;
+            this.Descrizione = descrizione;
+            this.Prezzo = 0;
+            this.Sconto = 0;
         }
         public Prodotto(string descrizione)
         {
-            this.descrizione = descrizione;
-            this.codice = -1;
-            this.prezzo = 0;
-            this.sconto = 0;
+            this.Descrizione = descrizione;
+            this.Codice = -1;
+            this.Prezzo = 0;
+            this.Sconto = 0;
 
         }
     }

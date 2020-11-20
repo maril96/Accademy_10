@@ -8,38 +8,38 @@ namespace Accademy.Esercitazione
 {
     public class Negozio
     {
-        public string nome { get;}
-        public string[] proprietario { get;}
-        public List<Prodotto> lista_prodotti { get;}
+        public string Nome { get;}
+        public string[] Proprietario { get;}
+        public List<Prodotto> Lista_prodotti { get;}
 
         public Negozio(string nome, string nome_prop, string cognome_prop)
         {
-            this.proprietario = new string[2];
-            this.proprietario[0] = nome_prop;
-            this.proprietario[1] = cognome_prop;
-            this.nome = nome;
-            this.lista_prodotti = null;
+            this.Proprietario = new string[2];
+            this.Proprietario[0] = nome_prop;
+            this.Proprietario[1] = cognome_prop;
+            this.Nome = nome;
+            this.Lista_prodotti = new List<Prodotto>();
 
         }
         public Negozio(string nome, string nome_prop, string cognome_prop, Prodotto item)
         {
-            this.proprietario = new string[2];
-            this.proprietario[0] = nome_prop;
-            this.proprietario[1] = cognome_prop;
-            this.nome = nome;
-            this.lista_prodotti = new List<Prodotto>();
-            lista_prodotti.Add(item);
+            this.Proprietario = new string[2];
+            this.Proprietario[0] = nome_prop;
+            this.Proprietario[1] = cognome_prop;
+            this.Nome = nome;
+            this.Lista_prodotti = new List<Prodotto>();
+            Lista_prodotti.Add(item);
         }
         public Negozio(string nome, string nome_prop, string cognome_prop, List<Prodotto> items)
         {
-            this.proprietario = new string[2];
-            this.proprietario[0] = nome_prop;
-            this.proprietario[1] = cognome_prop;
-            this.nome = nome;
-            this.lista_prodotti = new List<Prodotto>();
+            this.Proprietario = new string[2];
+            this.Proprietario[0] = nome_prop;
+            this.Proprietario[1] = cognome_prop;
+            this.Nome = nome;
+            this.Lista_prodotti = new List<Prodotto>();
             foreach (var item in items)
             {
-                lista_prodotti.Add(item);
+                Lista_prodotti.Add(item);
             }
         }
 
